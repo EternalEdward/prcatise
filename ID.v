@@ -74,8 +74,8 @@ always @(*)begin
 end    
 always @(*)begin
     if(rst == 1'b1)begin
-        //reg1_o <= 32'h0;
-            //reg2_o <= 32'h0;
+        reg1_o <= 32'h0;
+        reg2_o <= 32'h0;
     end
 end
 
