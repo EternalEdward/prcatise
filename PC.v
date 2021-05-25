@@ -17,6 +17,7 @@ module PC(
         if(rst == 1'b1)begin
             pc <= 32'h00000000; 
             //en <= 1'b0;
+            //这里再次将复位切开，我是不太明白
         end
         else begin
             pc <= pc + 32'h4;
